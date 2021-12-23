@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 
 import Main, { Glass } from '../../styles';
 
-const StartScreen = () => {
+const First = () => {
   return (
     <Main>
         <View>
@@ -18,7 +18,7 @@ const StartScreen = () => {
   )
 }
 
-export default StartScreen;
+export default First;
 
 /* position: relative;
 	width: 280px;
