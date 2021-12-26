@@ -1,10 +1,13 @@
+import styled from 'styled-components/native';
+import globals from '../globals'; 
+
 export default Main = styled.View`
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background-color: ${globals.colors.primary};
+  height: 100%;
   width: 100%;
-  height: 100%
 `;
 
-export const Glass = styled.View`
-`;
+// margin-top: ${globals.systemBar.margin};
