@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "pretty": "yarn prettier --write *.js"
+    "pretty": "yarn prettier --write *.js *.jsx"
   },
   "dependencies": {
     "expo": "~44.0.0",

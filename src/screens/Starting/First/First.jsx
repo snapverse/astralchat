@@ -1,21 +1,29 @@
 import React from 'react'
-import { View, Image, Text } from 'react-native'
-import styled from 'styled-components/native'
+import { Image, Text } from 'react-native'
 
-import Main, { Glass } from '../../styles';
+import Main from '../../styles';
+import Glass from '../../../components/Glass/Glass';
+
+import icon from '../../../../assets/icon.png';
+
+
+export default namespace = {
+	saludar: function() {}
+
+}
 
 const First = () => {
-  return (
-    <Main>
-        <View>
-            {/* <Image uri /> */}
-            <Text>Doousenger</Text>
-            <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id nihil, voluptas assumenda libero, numquam accusamus veniam suscipit eius quas quae nesciunt quasi fuga veritatis culpa eos quaerat nobis quia
-            </Text>
-        </View>
-    </Main>
-  )
+	return (
+		<Main>
+			<Glass>
+				<Image source={require(icon)} />
+				<Text>Doousenger</Text>
+				<Text>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id nihil, voluptas assumenda libero, numquam accusamus veniam suscipit eius quas quae nesciunt quasi fuga veritatis culpa eos quaerat nobis quia
+				</Text>
+			</Glass>
+		</Main>
+	)
 }
 
 export default First;

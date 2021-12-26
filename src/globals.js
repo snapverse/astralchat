@@ -12,9 +12,7 @@ export default {
    mb: "16px",
  },
  borders: {
-  small: "6px",
-  big: "16px",
+  bs: "6px",
+  bg: "16px",
  }
 }
-
-// Move-Item inicio fin --force
