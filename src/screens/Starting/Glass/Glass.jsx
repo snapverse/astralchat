@@ -12,6 +12,7 @@ const Glass = styled.View`
 	border-radius: ${globals.borders.bg};
 	height: 90%;
 	width: 90%;
+	border-top
 
 `;
 
