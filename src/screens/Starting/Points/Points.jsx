@@ -4,17 +4,19 @@ import styled from "styled-components/native";
 import globals from "../../../globals";
 
 const EnableCircle = styled.View`
-  height: 15px;
-  width: 15px;
+  height: 8px;
+  width: 8px;
   border-radius: 50px;
   background-color: ${globals.colors.details};
+  margin: 5px;
 `;
 
 const DisableCircle = styled.View`
-  height: 15px;
-  width: 15px;
+  height: 8px;
+  width: 8px;
   border-radius: 50px;
   background-color: ${globals.colors.disable};
+  margin: 5px;
 `;
 
 const Wrapper = styled.View`
@@ -22,6 +24,7 @@ const Wrapper = styled.View`
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin: 15px;
 `;
 
 const Points = () => {

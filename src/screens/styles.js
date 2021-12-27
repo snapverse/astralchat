@@ -9,5 +9,3 @@ export default Main = styled.View`
   height: 100%;
   width: 100%;
 `;
-
-// margin-top: ${globals.systemBar.margin};

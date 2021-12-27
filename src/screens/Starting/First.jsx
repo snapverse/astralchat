@@ -6,9 +6,10 @@ import {
 } from '@expo-google-fonts/montserrat';
 import AppLoading from 'expo-app-loading';
 import styled from 'styled-components';
+import { LinearGradient } from 'expo-linear-gradient';
 
 import Main from '../styles';
-import Glass from './Glass/Glass';
+import Glassed from './Glass/Glass';
 import logo from '../../../assets/icon.png';
 import Points from './Points/Points';
 
@@ -37,14 +38,14 @@ const First = () => {
 
 	return (
 		<Main>
-			<Glass>
+			<Glassed>
 				<Logo source={logo} />
 				<Title>Doousenger</Title>
 				<Description>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id nihil, voluptas assumenda libero, numquam accusamus veniam suscipit eius quas quae nesciunt quasi fuga veritatis culpa eos quaerat nobis quia
 				</Description>
-				<Points Points/>
-			</Glass>
+				<Points />
+			</Glassed>
 		</Main>
 	)
 }
