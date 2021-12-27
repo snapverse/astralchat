@@ -1,19 +1,13 @@
-import { 
-  Provider as PaperProvider,
-  configureFonts, 
-  DefaultTheme
-} from 'react-native-paper';  
-import styled from 'styled-components/native';
+import { Provider as PaperProvider } from 'react-native-paper';  
   
-import First from './src/screens/Starting/First/First';
+import First from './src/screens/Starting/First';
 import Main from './src/screens/styles'
 import { CustomStatusBar } from './src/globals';
-
 
 export default function App() {
   return (
     <PaperProvider>
-      <CustomStatusBar backgroundColor="#fff" />
+      <CustomStatusBar backgroundColor="#202020" />
       <Main>
         <First />
       </Main>

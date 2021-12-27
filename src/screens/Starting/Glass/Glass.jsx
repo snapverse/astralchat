@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import globals from '../../globals';
+import globals from '../../../globals';
 
 const Glass = styled.View`
 	display: flex;
