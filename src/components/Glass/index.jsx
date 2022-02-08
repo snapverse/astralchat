@@ -1,20 +1,19 @@
-import styled from 'styled-components';
-import { LinearGradient } from 'expo-linear-gradient';
-import { BlurView } from 'expo-blur';
-import { StyleSheet } from "react-native";
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
 
-import globals from '../../../globals';
+export default Glass = () => <View styles={styles.glass}></View>
 
-const Glass = styled.View`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: ${globals.borders.bg};
-	height: 90%;
-	width: 90%;
-	border-top
-
-`;
+const styles = StyleSheet.create({
+	glass: {
+		display: 'flex',
+		alignItems: 'center',
+		justifyContent: 'center',
+		backgroundColor: '#4d4d4d',
+		width: '90%',
+		height: '90%',
+		borderRadius: 16,
+	}
+})
 
 /* const styles = StyleSheet.create({
 	gradient: {
@@ -28,15 +27,6 @@ const Glass = styled.View`
 	colors={['rgba(255, 255, 255, 0.1)','rgba(255, 255, 255, 0.1)']}
 	style={styles.gradient}
 />*/
-
-const Glassed = () => {
-	return (
-		<Glass>
-		</Glass>
-	)
-}
-
-export default Glassed
 
 /*
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
